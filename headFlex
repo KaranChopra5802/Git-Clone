@@ -1,0 +1,6 @@
+.headFlex
+{
+    display : flex;
+    justify-content : flex-end;
+    
+}
