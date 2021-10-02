@@ -1,0 +1,92 @@
+.head_features
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;  
+    display: flex;
+    color: white;
+    
+    height: 30px;
+    text-align: justify;
+}
+
+.nav_button
+{
+    display: none;
+    
+}
+
+.middle-header
+{
+    display: inline;
+}
+
+.shorten
+{
+    width: 300px;
+}
+
+.login-padding
+{
+    padding:10px;
+}
+
+
+
+@media only screen and (max-width:700px)
+{
+    #logo
+    {
+        display: none;
+    }
+
+    .head_features
+    {
+        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        
+        font-size: 10px;
+
+
+    }
+
+    .button_signin
+    {
+        
+    }
+
+    .nav_button
+    {
+        display:flex;
+    }
+
+    .middle-header
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;     
+        text-align: center;  
+        justify-content: center ;
+    }
+
+    .middle-login
+    {
+        display: none;
+    }
+
+    .lengthen
+    {
+        width: fit-content;
+    }
+
+    .login-padding
+    {
+        padding:0px;
+    }
+
+
+}
